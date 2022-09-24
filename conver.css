@@ -1,0 +1,65 @@
+ *{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	font-family: sans-serif;
+ }
+ body{
+ 	background: #1AF9FB;
+    justify-content: center;
+ 	display: flex;
+ 	align-items: center;
+    min-height: 10vh;
+ }
+ .all{
+    background: #fff;
+    justify-content: center;
+    width:400px;
+    padding: 30px;
+    border-radius: 7px;
+ }
+ .all h1{
+    justify-content: center;
+    display: flex;
+ }
+ .in{
+    justify-content:center;
+    display: flex;
+    padding: 20px;
+    font-family: 20px;
+ }
+ form :where(input,select,button){
+    width=100%
+    outline: none;
+ }
+ form input{
+    border: 1px,solid #aaa;
+    height: 50px;
+    width: 300px;
+    border-radius: 7px;
+
+ }
+form .drop  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.drop select{
+    width: 100px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+.info{
+    justify-content: center;
+    display: flex;
+}
+.but{
+    justify-content: center;
+    display: flex;
+}
+.but button{
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    height: 20px;
+    background: #1AF9FB;
+}
